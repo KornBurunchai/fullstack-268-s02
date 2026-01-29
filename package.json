@@ -2,13 +2,15 @@
   "name": "fullstack-268-s02",
   "version": "1.0.0",
   "description": "fullstack",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "format": "prettier --write *.js"
+    "start": "node src/index.js",
+    "format": "prettier --write *.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
+    
     "url": "git+https://github.com/KornBurunchai/fullstack-268-s02.git"
   },
   "keywords": [],
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/KornBurunchai/fullstack-268-s02#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.0"
   },
   "dependencies": {
